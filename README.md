@@ -1,9 +1,9 @@
 # Laravel API
 
-. CRUD Database, 
-. Token Authentication, 
-. Basic Authentication,
-. OAuth, Passport
+1. CRUD Database, 
+2. Token Authentication, 
+3. Basic Authentication,
+4. OAuth, Passport
 
 ## api.php
 ```php
