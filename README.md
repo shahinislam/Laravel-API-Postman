@@ -1,9 +1,10 @@
 # Laravel API
 
-1. CRUD Database, 
-2. Token Authentication, 
-3. Basic Authentication,
-4. OAuth, Passport
+- CRUD Database, <br>
+- Token Authentication, <br> 
+- Basic Authentication, <br>
+- OAuth, Passport, <br>
+- Dowonload & Upload <br>
 
 ## api.php
 ```php
@@ -126,7 +127,9 @@ class CountryController extends Controller
             AuthKey::class,
         ],
 ```
-Postman->header->key=""->value=""
+### Postman
+- header <br>
+key="APP_KEY" => value="ABCDEFGHIJK"
 
 ## 3. Basic Authentication
 
@@ -149,7 +152,8 @@ Postman->header->key=""->value=""
             AuthBasic::class,
         ],
 ```
-Postman->Authorization->Basic Auth
+### Postman
+- Authorization->Basic Auth
 
 ## 4. OAuth
 
@@ -244,6 +248,7 @@ class PhotoController extends Controller
 }
 
 ```
+### Postman
 Body->form-data->file
 
 
