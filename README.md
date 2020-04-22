@@ -1,5 +1,19 @@
 # Laravel API
 
+. CRUD Database, 
+. Token Authentication, 
+. Basic Authentication,
+. OAuth, Passport
+
+## api.php
+```php
+Route::apiResource('country', 'CountryController')->middleware('client');
+
+Route::get('download', 'PhotoController@download');
+Route::post('upload', 'PhotoController@upload');
+
+```
+
 ## CountryController.php
 
 ```php
